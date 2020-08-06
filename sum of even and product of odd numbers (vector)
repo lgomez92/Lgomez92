@@ -1,0 +1,29 @@
+#include <iostream>
+#include <vector>
+
+int main()
+{
+	int user_number, evenTotal = 0, oddTotal = 1;
+	std::vector<int> numbers;
+
+	std::cout << "Please enter a number to add, enter 0 to add your numbers: ";
+	std::cin >> user_number;
+
+	while (user_number != 0) {
+		numbers.push_back(user_number);
+		std::cout << "Please enter a number to add, enter 0 to add your numbers: ";
+		std::cin >> user_number;
+	}
+
+	for (int i = 0; i < numbers.size(); i++) {
+		if (numbers[i] % 2 == 0) {
+			evenTotal += numbers[i];
+		}
+		else {
+			oddTotal *= numbers[i];
+		}
+	}
+
+	std::cout << "Sum of even numbers is " << evenTotal << " \n";
+	std::cout << "Product of odd numbers is " << oddTotal << " \n";
+}
