@@ -80,3 +80,69 @@
 	
 	</body>
 </html>
+
+CSS Code:
+
+html{
+	background-color: #1D2731;
+	color:white ;
+}
+
+header {
+	text-align: center;
+}
+
+h1, h2, h3 {
+	color: #D9B310;
+}
+
+.sample-box {
+	width: 300px;
+	height: 260px;
+	background-color: #0B3C5D;
+	font-weight: bold;
+	font-family: monospace;
+	color: #328CC1;
+	float: left;
+	margin: 25px;
+	margin-top: 20px;
+}
+
+table {
+	width: 800px;
+	height: 265px;
+	float: left;
+	margin-bottom: 30px;
+	background-color: #0B3C5D;
+	padding: 5px;
+}
+
+tr, td {
+	border: 1px solid white;
+}
+
+th {
+	border: 1px solid white;
+	color: #D9B310;
+}
+
+.tag {
+	color: #D9B310;
+	font-weight: bold;
+}
+
+.image-box {
+	float: left;
+	background-color: #0B3C5D;
+	width: 300px;
+	height: 265px;
+	margin: 25px;
+	margin-top: 1px;
+}
+
+img {
+	margin-top: 10px;
+	width: 280px;
+	height: 245px;
+	margin-left: 10px;
+}
