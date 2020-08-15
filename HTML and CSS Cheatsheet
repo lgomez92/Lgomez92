@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Learning HTML & CSS</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		
+		<header class="header">
+			<h1>Learning HTML and CSS</h1>
+			<p>Welcome to the cheatsheet for HTML and CSS, this page is dedicated for usefull information and a guide if you need to refresh your memory on anything HTML or CSS.</p>
+		</header>
+		<hr>
+<main>
+
+		<h2>HTML</h2>
+			<h3>1. Main skeleton of html</h3>
+				<p>This section will show the basic skeleton you need for creating html</p>
+
+		<!-- Makes the sample suqare-->
+		<div>
+			<div class="sample-box ">
+				<p>&lt;!DOCTYPE html&gt;</p>
+				<pre>   &lt;html&gt;</pre>
+				<pre>      &lt;head&gt;</pre>
+				<pre>         &lt;title&gt;<em style="color: white">title of webpage</em>&lt;/title&gt;</pre>
+				<pre>      &lt;/head&gt;</pre>
+				<pre>      &lt;body&gt;</pre>
+				<pre>      &lt;/body&gt;</pre>
+				<pre>   &lt;/html&gt;</pre>
+			</div>
+			<br>
+		
+			<div>
+				<table>
+					<thead>
+						<th>Tag</th>
+						<th>Name</th>
+						<th>Description</th>
+					</thead>	
+					<tbody>
+						<tr>
+							<td class="tag">&lt;!DOCTYPE html&gt;</td>
+							<td>HTML declaration</td>
+							<td>Tells the browser that the code is in HTML</td>
+						</tr>
+						<tr>
+							<td class="tag">&lt;html&gt; &lt;/html&gt;</td>
+							<td>HTML tags</td>
+							<td>All the HTML code needs to be in between these two tags</td>
+						</tr>
+						<tr>
+							<td class="tag">&lt;head&gt; &lt;/head&gt;</td>
+							<td>heading of website</td>
+							<td>Main title of the website. Also, appears on the tab</td>
+						</tr>
+						<tr>
+							<td class="tag">&lt;title&gt; &lt;/title&gt;</td>
+							<td>Title information of the page</td>
+							<td>Use for the title of the page, also shows what is display on your tab</td>
+						</tr>
+						<tr>
+							<td class="tag">&lt;body&gt; &lt;/body&gt;</td>
+							<td>Main body of the page</td>
+							<td>Containts all the content of the webpage</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="image-box">
+				<img src="htmlpic.png" alt="html pick">
+			</div>	
+		</div>
+	</main>
+	
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<hr>
+
+	
+	</body>
+</html>
